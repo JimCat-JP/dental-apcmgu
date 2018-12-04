@@ -1163,9 +1163,10 @@ body.stretched #header.full-header .container {
     margin: 0;
 }
 
-#trigger-ul {
+.trigger-ul {
     overflow-y: scroll !important;
     height: 100vh !important;
+    padding-bottom: 60px;
 }
 
 #primary-menu > ul {
