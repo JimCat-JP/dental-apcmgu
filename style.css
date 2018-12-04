@@ -1163,6 +1163,11 @@ body.stretched #header.full-header .container {
     margin: 0;
 }
 
+#trigger-ul {
+    overflow-y: scroll !important;
+    height: 100vh !important;
+}
+
 #primary-menu > ul {
     float: left;
 }
@@ -15166,8 +15171,8 @@ tr > td:nth-child(2) {
 }
 
 
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media screen and (min-width: 1201px) {
     .heading-block {
-        margin-top: 60px;
+        margin-top: 80px;
     }
 }
