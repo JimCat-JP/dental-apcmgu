@@ -15165,15 +15165,22 @@ td {
 
 tr > td:nth-child(1) {
     border-left: 0;
-    padding-right: 20px;
 }
-tr > td:nth-child(2) {
+tr > td:last-child {
     width: 100%;
 }
-
+.table-bordered td {
+    border-right: 0;
+    border-bottom: 0;
+}
 
 @media screen and (min-width: 1201px) {
-    .heading-block {
+    .heading-block, .content-wrap {
         margin-top: 80px;
+    }
+}
+@media screen and (max-width: 767px) {
+    table * {
+        font-size: 0.75rem !important;
     }
 }
