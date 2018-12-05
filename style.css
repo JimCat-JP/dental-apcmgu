@@ -825,9 +825,14 @@ body.stretched .container-fullwidth {
     float: right;
 }
 
+.col_first {
+    float: left;
+}
+
 .col_last {
     margin-right: 0 !important;
     clear: right;
+    float: right;
 }
 
 
