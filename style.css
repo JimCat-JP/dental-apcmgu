@@ -15179,9 +15179,12 @@ tr > td:last-child {
     border-bottom: 0;
 }
 
-@media screen and (min-width: 1201px) {
-    .heading-block, .content-wrap {
-        margin-top: 80px;
+@media screen and (min-width: 1202px) {
+    .heading-block {
+        margin-top: 40px;
+    }
+    .content-wrap {
+        margin-top: 60px;
     }
 }
 @media screen and (max-width: 767px) {
