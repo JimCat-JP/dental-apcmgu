@@ -15129,6 +15129,22 @@ body:not(.no-transition) #wrapper,
 	2018/12/03 update
 -----------------------------------------------------------------*/
 
+.slider-div-wrap .slider-wrap > div.slide > a > img {
+    height: 120px;
+    width: 100%;
+}
+
+.slide-justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-div-wrap .slider-wrap > div.slide img {
+    width: auto;
+    height: 480px;
+}
+
 .overseas-table-wrap {
     position: relative;
 }
@@ -15211,6 +15227,15 @@ tr > td:last-child {
     }
 }
 @media screen and (max-width: 767px) {
+    .slider-div-wrap .slider-wrap > div.slide img {
+        height: 240px;
+    }
+
+    .slider-div-wrap .slider-wrap > div.slide > a > img {
+        height: 120px;
+        width: 100%;
+    }
+
     table * {
         font-size: 0.75rem !important;
     }
