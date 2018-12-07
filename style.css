@@ -15129,6 +15129,30 @@ body:not(.no-transition) #wrapper,
 	2018/12/03 update
 -----------------------------------------------------------------*/
 
+.home-bg {
+    position: relative;
+}
+.home-bg::after {
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 100%;
+    width: 100%;
+    max-width: 566px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(images/home/1.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.home-bg img {
+    position: relative;
+    z-index: 3;
+}
+
 .slider-div-wrap .slider-wrap > div.slide > a > img {
     height: 120px;
     width: 100%;
