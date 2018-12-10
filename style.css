@@ -15171,6 +15171,13 @@ body:not(.no-transition) #wrapper,
     /*image-orientation: 0deg;*/
 }
 
+.img-rotate-for-exif-90 {
+    transform: rotate(90deg);
+}
+.img-rotate-for-exif-270 {
+    transform: rotate(270deg);
+}
+
 .overseas-table-wrap {
     position: relative;
 }
