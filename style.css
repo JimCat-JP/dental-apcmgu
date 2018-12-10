@@ -15156,7 +15156,7 @@ body:not(.no-transition) #wrapper,
 .slider-div-wrap .slider-wrap > div.slide > a > img {
     height: 120px;
     width: 100%;
-    image-orientation: 0deg;
+    /*image-orientation: 0deg;*/
 }
 
 .slide-justify-center {
@@ -15168,7 +15168,7 @@ body:not(.no-transition) #wrapper,
 .slider-div-wrap .slider-wrap > div.slide img {
     width: auto;
     height: 480px;
-    image-orientation: 0deg;
+    /*image-orientation: 0deg;*/
 }
 
 .overseas-table-wrap {
