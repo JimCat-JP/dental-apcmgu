@@ -15142,7 +15142,7 @@ body:not(.no-transition) #wrapper,
     max-width: 566px;
     position: absolute;
     z-index: 2;
-    background-image: url(images/home/1.JPG);
+    background-image: url(images/home/1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15188,7 +15188,7 @@ body:not(.no-transition) #wrapper,
     width: 100%;
     position: absolute;
     z-index: 2;
-    background-image: url(images/overseas-bg.JPG);
+    background-image: url(images/overseas-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
